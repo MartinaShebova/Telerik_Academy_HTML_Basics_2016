@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Registration form</title>
+</head>
+<body style="font-family:Arial, Helvetica, sans-serif; font-size:12px">
+	<form method="get" style="width:50%">
+		<table border="1" cellspacing="0" cellpadding="5" style="border-color:#999">
+    	<tr>
+        	<td style="text-align:right"><label><strong>Last Name</strong></label></td>
+            <td style="text-align:left"><input type="text" value="Nakov" /></td>
+        </tr>
+        <tr>
+        	<td style="text-align:right"><label><strong>First Name</strong></label></td>
+        	<td style="text-align:left"><input type="text" value="Svetlin" /></td>
+        </tr>
+        <tr>
+        	<td style="text-align:right"><label><strong>Address</strong></label></td>
+            <td style="text-align:left"><textarea style="text-align:left">17 Hristo Botev Str. floor 3, apt. 12</textarea></td>
+        </tr>
+        <tr>
+            <td style="text-align:right"><label><strong>City</strong></label></td>
+            <td colspan="3"><input type="text" value="Kaspichan" /><label style="text-align:left; padding-right:5px">
+            <strong>State</strong></label><input type="text" name="State" /></td>
+        </tr>
+        <tr>
+            <td style="text-align:right"><label><strong>Zip/Postal code</strong></label></td>
+            <td style="text-align:left"><input type="number" value="9325" /></td>
+        </tr>
+        <tr>
+            <td style="text-align:right"><label><strong>Country</strong></label></td>
+            <td style="text-align:left">
+            	<select>
+                	<option>Bulgaria</option>
+                    <option>France</option>
+                    <option>Romania</option>
+                    <option>Italy</option>
+                    <option>USA</option>
+                    <option>Australia</option>
+                    <option>Canada</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right"><label><strong>Phone (country code, <br /> area number, number)</strong></label></td>
+            <td style="text-align:left"><label>(+<input type="number" value="359" style="width:50px"/>)
+            <input type="number" value="88" style="width:70px"/>-<input type="number" value="8334343"/></label></td>
+        </tr>
+        <tr>
+            <td style="text-align:right"><label><strong>E-mail</strong></label></td>
+            <td style="text-align:left"><input type="email" value="nakov@kaspichan.org" /></td>
+        </tr>
+        <tr>
+            <td style="text-align:right"><label><strong>Birth date</strong></label></td>
+            <td ><label>Month </label><input type="number" value="06" min="1" max="12"/>
+            <label>Day </label><input type="number" name="da" value="14" min="1" max="31"/>
+            <label>Year (4 digit) </label><input type="number" value="1980" min="1950" max="1991"/>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right"><label><strong>Gender</strong></label></td>
+            <td style="text-align:left">
+            	<select>
+                	<option>Male</option>
+                    <option>Female</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right"><label><strong>Starting date</strong></label></td>
+            <td style="text-align:left"><input type="radio" name="Staring date" value="Spring 2006"/>Spring 2006
+            <input type="radio" name="Staring date" value="Summer 2006"/>Summer 2006       
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right"><label><strong>Comments/Questions</strong></label></td>
+            <td style="text-align:left"><textarea>Please send me more information about logging.</textarea></td>
+        </tr>
+        <tr align="center">
+        	<td colspan="4" style="background-color:#0F9"><input type="submit" value="Submit" />
+            <input type="reset" value="Clear This Form"/>
+            </td>
+        </tr>                           
+    </table>
+</form>
+</body>
+</html>

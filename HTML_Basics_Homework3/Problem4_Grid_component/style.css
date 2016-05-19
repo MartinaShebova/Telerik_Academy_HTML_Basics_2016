@@ -1,0 +1,22 @@
+@charset "utf-8";
+.table_properties {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border: #E0E3E5 solid;
+	border-radius: 5px;	
+}
+.grey_background {
+	background-color:#DFE3E8;
+}
+#input_1box_size {
+	width: 28px;
+} 
+#input_2box_size {
+	width:120px;
+}
+.input_the_rest_three {
+	width:60px;
+}
+#bottom_numbers {
+	float:right;
+}
